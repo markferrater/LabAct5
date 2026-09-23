@@ -8,7 +8,7 @@ Module Module1
     Private db_port As String = "3306"
     Private db_name As String = "labact5"
     Public db_con As New MySqlConnection
-'aswqwqwqw test
+'aswqwqwqw test 2.0
     Public Sub dbConnect()
         db_con = New MySqlConnection("server=" & db_server & "; port=" & db_port & "; user id=" & db_username & "; password=" & db_password & "; database=" & db_name & ";")
         db_con.Open()
